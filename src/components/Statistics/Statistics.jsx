@@ -12,6 +12,7 @@ import {
   StatText,
   ValueFedback
 } from './Statistics.styled';
+
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => (
   <StatList>
     <StatItem>
