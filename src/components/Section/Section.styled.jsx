@@ -26,10 +26,10 @@ export const Text = styled.span`
   &::after {
     content: '';
     position: absolute;
-    left: -1em;
-    right: -1em;
+    left: -0.5em;
+    right: -0.5em;
     bottom: -0.3em;
-    height: 2px;
+    height: 1.8px;
     background-color: currentColor;
   }
 `;
