@@ -21,15 +21,3 @@ export const Title = styled.h2`
   margin-bottom: 0.6em;
 `;
 
-export const Text = styled.span`
-  position: relative;
-  &::after {
-    content: '';
-    position: absolute;
-    left: -0.5em;
-    right: -0.5em;
-    bottom: -0.3em;
-    height: 1.8px;
-    background-color: currentColor;
-  }
-`;
